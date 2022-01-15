@@ -25,7 +25,7 @@ async function getImg(id) {
 
 let gallery = (gallery) => {
   gallery.map((item) => {
-    return (albums.innerHTML += `<li data-id = ${item.id}>${item.title}</li>`);
+    return albums.innerHTML += `<li data-id = ${item.id}>${item.title}</li>`;
   });
 };
 
